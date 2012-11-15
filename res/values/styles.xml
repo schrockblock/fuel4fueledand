@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Heading">
+    	<item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    	<item name="android:textColor">@color/main</item>
+    	<item name="android:background">@color/heading</item>
+    	<item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="Content">
+    	<item name="android:textColor">@color/text</item>
+    	<item name="android:background">@color/main</item>
+    </style>
+    <style name="radio">
+    	<item name="android:textColor">@color/text</item>
+    </style>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/finishLinLay"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main">
+    <TextView 
+    	android:id="@+id/textView1" 
+    	android:text="Bump" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	style="@style/Heading" />
+    	
+    <TextView 
+    	android:textAppearance="?android:attr/textAppearanceMedium" 
+    	android:id="@+id/textView2" 
+    	android:text="@string/bump_text"
+    	android:textColor="@color/text"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"></TextView>
+    	
+    <Button 
+    	android:layout_width="wrap_content" 
+		android:layout_marginTop="40dip"
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/bump_button" 
+    	android:paddingLeft="20dip"
+    	android:paddingRight="20dip"
+    	android:text="Bump!"
+    	android:layout_gravity="center|center"></Button>
+    <Button 
+    	android:layout_width="wrap_content"
+		android:layout_marginTop="40dip"
+    	android:layout_height="wrap_content" 
+    	android:text="Done"
+    	android:id="@+id/done_bumping" 
+    	android:layout_gravity="center|center"></Button>
+</LinearLayout>

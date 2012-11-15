@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="transparent">#00000000</color>
+	<color name="off_white">#484848</color>
+	
+    <color name="main">#fff</color>
+    <color name="text">#ae0000</color>
+    <color name="accent">#af83bb</color>
+    <color name="heading">#ae0000</color>
+</resources>

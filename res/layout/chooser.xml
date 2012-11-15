@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ViewAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/chooser_anim" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="fill_parent" >
+    	<LinearLayout 
+    android:id="@+id/foodLinLay"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main">
+    <TextView 
+    	android:id="@+id/textView1" 
+    	android:text="@string/food" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	style="@style/Heading" />
+        <CheckBox 
+        	android:text="@string/f1"
+			style="@style/radio" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/cb1" 
+			android:checked="true"></CheckBox>
+        <CheckBox 
+        	android:text="@string/f2"
+			style="@style/radio" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/cb2" ></CheckBox>
+        <CheckBox 
+        	android:text="@string/f3"
+			style="@style/radio" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/cb3" ></CheckBox>
+		<CheckBox 
+			android:text="@string/f4"
+			style="@style/radio" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/cb4" ></CheckBox>
+		<CheckBox 
+			android:text="@string/f5"
+			style="@style/radio" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/cb5" ></CheckBox>
+		<CheckBox 
+			android:text="@string/f6"
+			style="@style/radio" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/cb6" ></CheckBox>
+    <TextView 
+    	android:textAppearance="?android:attr/textAppearanceMedium" 
+    	android:paddingTop="40dip"
+    	android:id="@+id/textView2" android:text="Swipe left to continue..."
+    	android:textColor="@color/text"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+
+<LinearLayout 
+    android:id="@+id/distanceLinLay"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main">
+    <TextView 
+    	android:id="@+id/textView1" 
+    	android:text="@string/distance" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	style="@style/Heading" />
+    <RadioGroup android:id="@+id/dgroup" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RadioButton 
+        	android:text="@string/d1"
+			style="@style/radio" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/dr1" 
+			android:checked="true"></RadioButton>
+        <RadioButton 
+        	android:text="@string/d2"
+			style="@style/radio" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/dr2"></RadioButton>
+        <RadioButton 
+        	android:text="@string/d3"
+			style="@style/radio" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/dr3"></RadioButton>
+    </RadioGroup>
+</LinearLayout>
+
+<LinearLayout 
+    android:id="@+id/moneyLinLay"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main">
+    <TextView 
+    	android:id="@+id/textView1" 
+    	android:text="@string/money" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	style="@style/Heading" />
+    <RadioGroup android:id="@+id/mgroup" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RadioButton 
+        	android:text="@string/m1"
+			style="@style/radio" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/mr1" 
+			android:checked="true"></RadioButton>
+        <RadioButton 
+        	android:text="@string/m2"
+			style="@style/radio" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/mr2"></RadioButton>
+        <RadioButton 
+        	android:text="@string/m3"
+			style="@style/radio" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/mr3"></RadioButton>
+    </RadioGroup>
+</LinearLayout>
+
+<LinearLayout 
+    android:id="@+id/finishLinLay"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main">
+    <TextView 
+    	android:id="@+id/textView1" 
+    	android:text="@string/finish" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	style="@style/Heading" />
+    	
+    <TextView 
+    	android:textAppearance="?android:attr/textAppearanceMedium" 
+    	android:id="@+id/textView2" android:text="@string/finish_text"
+    	android:textColor="@color/text"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"></TextView>
+    	
+    <Button 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/done_choosing" 
+    	android:paddingLeft="20dip"
+    	android:paddingRight="20dip"
+    	android:text="Done"
+    	android:layout_gravity="center|center"></Button>
+</LinearLayout>
+    	
+    	</ViewAnimator>
+

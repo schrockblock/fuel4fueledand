@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main">
+    
+    <TextView 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" android:id="@+id/textView1" 
+    	android:text="@string/heading1"
+    	style="@style/Heading" />
+    <TextView 
+    	android:text="@string/intro" 
+    	android:id="@+id/textView2" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    	style="@style/Content" />
+    <TextView 
+    	android:text="Let's get started!" 
+    	android:id="@+id/textView3" 
+    	android:layout_width="wrap_content"
+    	style="@style/Content"
+    	android:layout_height="wrap_content" android:layout_gravity="center"></TextView>
+    <Button 
+    	android:layout_width="wrap_content" 
+    	android:text="Next" 
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/start_next" 
+    	android:layout_gravity="center|bottom"></Button>
+</LinearLayout>

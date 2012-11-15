@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="ex.fueled.lunch"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application android:icon="@drawable/emblem48" android:label="@string/app_name">
+        <activity android:name=".Splash"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.bumptech.bumpapi.BumpAPI"
+			android:configChanges="keyboardHidden|orientation"
+			android:theme="@style/BumpDialog" />
+		<activity android:name="com.bumptech.bumpapi.EditTextActivity"
+			android:configChanges="keyboardHidden|orientation"
+			android:theme="@style/BumpDialog" />
+		<activity 
+    	    android:name=".StartActivity"
+            android:theme="@android:style/Theme.NoTitleBar">
+    	</activity>
+    	<activity 
+    	    android:name=".ChooserActivity"
+            android:theme="@android:style/Theme.NoTitleBar">
+    	</activity>
+    	<activity 
+    	    android:name=".BumpCollectorActivity"
+            android:theme="@android:style/Theme.NoTitleBar">
+    	</activity>
+    	<activity 
+    	    android:name=".RecommenderActivity"
+            android:theme="@android:style/Theme.NoTitleBar">
+    	</activity>
+
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+</manifest>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Splash!</string>
+    <string name="app_name">Fuel 4 Fueled</string>
+    <string name="intro">We\'ll ask you and your friends some questions, compile your answers, and make a recommendation or two. Once you all decide, we\'ll post to facebook to let everyone know you\'re out to lunch.</string>
+    <string name="heading1">Time to get some om nom noms? That\'s cool.</string>
+    <string name="food">What kind of food are you in the mood for?</string>
+    <string name="distance">How far are you willing to travel for this fabled feast?</string>
+    <string name="money">How many stars should this place have (rating wise)?</string>
+    <string name="f1">Something asian...</string>
+    <string name="f2">Classic American! Burgers! Wings! Fried stuff!</string>
+    <string name="f3">I\'m digging some Italian.</string>
+    <string name="f4">Can I get some Middle Eastern?</string>
+    <string name="f6">I\m a vegetarian/vegan. Have something for me?</string>
+    <string name="f5">Give me some Mexican!</string>
+    <string name="m1">Look, as long as it\'s not *awful*...</string>
+    <string name="m2">3 or above seems acceptable</string>
+    <string name="m3">4.5 and above or bust!</string>
+    <string name="d1">Across the street. Tops.</string>
+    <string name="d2">Moderate walking distance please.</string>
+    <string name="d3">Anywhere in the city is fine.</string>
+    <string name="finish">When you\'re done...</string>
+    <string name="finish_text">Once you and your colleagues have made your selections, click the button below and follow the instructions to share information.</string>
+    <string name="bump_text">Alright! Press the \'Bump!\' button below to exchange info with your colleagues. Once you\'ve exchanged with everyone, press the \'Done\' button.</string>
+</resources>
